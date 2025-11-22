@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "James P",
+                "Email": "jamesp@example.com"
+            }
+        ],
+        "Name": "Ambient Weather Monitor",
+        "Description": "Monitors an Ambient Weather Station via API",
+        "Icon": "weather-clear",
+        "Id": "com.ambientweather.widget",
+        "Version": "1.0",
+        "Website": "",
+        "Category": "Weather",
+        "License": "GPL-2.0",
+        "EnabledByDefault": true
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
